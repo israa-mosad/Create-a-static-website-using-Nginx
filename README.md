@@ -21,15 +21,7 @@ nano website/index.html
 
 
 ### In the index.html file, add the following content:
-<!DOCTYPE html>
-<html>
-<head>
-<title>My Website</title>
-</head>
-<body>
-<h1>Welcome to my website!</h1>
-</body>
-</html>
+ ![image](https://github.com/israa-mosad/Create-a-static-website-using-Nginx/assets/133568327/00248b3a-aed3-4880-81fe-3e98c9f60877)
 
 
 ### 4. Configure Nginx to serve the website.
@@ -38,11 +30,7 @@ sudo nano /etc/nginx/sites-available/mywebsite
 
 ### In the mywebsite file, add the following content:
 
-server {
-listen 80;
-server_name mywebsite;
-root /var/www/mywebsite;
-}
+![image](https://github.com/israa-mosad/Create-a-static-website-using-Nginx/assets/133568327/b296111b-8983-4de7-a529-90906714833c)
 
 
 ### Save the file and then enable the mywebsite site:
