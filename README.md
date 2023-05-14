@@ -8,19 +8,19 @@ This project will teach you how to set up a static website using the Nginx web s
 
 ## Instructions
 
-1. Install Nginx.
+### 1. Install Nginx.
 sudo apt-get install nginx
 
 
-2. Create a website directory.
+### 2. Create a website directory.
 mkdir website
 
 
-3. Create a index.html file in the website directory.
+### 3. Create a index.html file in the website directory.
 nano website/index.html
 
 
-In the index.html file, add the following content:
+### In the index.html file, add the following content:
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +32,7 @@ In the index.html file, add the following content:
 </html>
 
 
-4. Configure Nginx to serve the website.
+### 4. Configure Nginx to serve the website.
 sudo nano /etc/nginx/sites-available/mywebsite
 
 
